@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOSDJ.COM</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            /* background-image: url("img/1.gif"); */
+            background-size: cover;
+        }
+    </style>
+</head>
+<body id="app">
+    <audio preload="metadata" controls="controls" autoplay="autoplay" src="http://96.ierge.cn/15/231/463778.mp3?v=0524">
+        如果我是DJ 你会爱我吗
+    </audio>
+    <div style="position: fixed; bottom: 0; left: 0; right: 0; opacity: 0.3; text-align: center; font-size: 12px;">
+        <span>
+            羽飞果果，All Rights Reserved. 增值电信业务经营许可证：</span>
+        <a target="_blank" href="https://beian.miit.gov.cn">闽ICP备2021008386号-1</a>
+    </div>
+</body>
+<script>
+    document.getElementById('app').style.backgroundImage = 'url("img/'+ parseInt(Math.random() * 4)  +'.gif")';
+</script>
+</html>
